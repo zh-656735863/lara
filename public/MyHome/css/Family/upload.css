@@ -1,0 +1,58 @@
+#inputSelf{
+    position:absolute;
+    opacity:0;
+}
+
+#upLoadContent{
+     width:300px;
+     margin:0 auto;
+    padding-top: 50px;
+}
+
+.up_Box{
+    border:5px solid #D6DBDF;
+    padding:20px;
+    width:300px;
+    min-height:400px;
+    border-radius:10px;
+}
+
+h2{
+    margin:0;
+    text-align:center;
+    color:#616A6B;
+}
+
+.imageContent{
+    width:140px;
+    margin:40px auto;
+}
+
+.imageContent label{
+    margin:0;
+}
+
+.bule-btn {
+    height: 30px;
+    width: 100px;
+    background-color: #D6EAF8;
+    font-size: 1em;
+    color: #566573;
+    border-color: #AED6F1;
+    display:inline-block;
+}
+
+.bule-btn:hover {
+    border-color: #2471A3;
+    background-color: #ECF0F1;
+}
+
+.buttonContent{
+    text-align: center;
+}
+
+#succeed-delete,#fail-message{
+    position: absolute;
+    width:90%;
+    text-align: center;
+}

@@ -1,0 +1,206 @@
+
+.clearfix:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+
+}
+
+.select_ul{
+	line-height:36px;
+	padding-left:100px;
+	float:left;
+}
+
+.mainal{
+	min-height:480px;
+	background-color:#fffffb;
+	border-radius:12px;
+}
+
+.add_box{
+	position:absolute;
+	top:90px;
+	left:24%;
+}
+
+.add_btn1{
+	height:30px;
+    width:100px;
+	background-color:#D6EAF8;
+	font-size:1em;
+	color:#566573;
+	border-color:#AED6F1;
+	margin-right:12px;
+}
+
+.add_btn1:hover{
+	border-color:#2471A3;
+	background-color:#ECF0F1;
+}
+.info{
+	width:800px;
+	padding-top:100px;
+	margin:0 auto;
+	padding-bottom:10px;
+}
+
+
+
+.tb_tr{
+	font-size:18PX;
+	line-height:36px;
+}
+.tb_tr th{
+	font-weight:500;
+	color:#641E16 ;
+}
+
+
+.th_name{width:85px;text-align:center;}
+.th_sex{width:50px;text-align:center;}
+.th_age{width:50px;text-align:center;}
+.th_bir{width:90px;text-align:center;}
+.th_id{width:50px;text-align:center;}
+.th_act{width:110px;text-align:center;}
+
+
+td{
+	text-align:center;
+	line-height:26px;
+}
+
+td button{
+	background-color:#D6EAF8;
+	width:48px;
+	line-height:28px;
+	margin-left:2px;
+	color:black;
+	border-color: #AED6F1;
+}
+
+td button:hover{
+	background-color:#AED6F1;
+	font-weight:400;
+}
+
+td button.tab_tbn_xg:hover{
+	color:green;
+}
+
+td button.tab_tbn_de:hover{
+	color:red;
+}
+
+.table_container{
+	width:800px;
+	padding-bottom:60px;
+	padding-top:28px;
+	background-color:#F2F3F4;
+	box-shadow: 2px 2px 2px #707B7C;
+	border-radius:5px;
+}
+
+.table_desc{
+	width:430px;
+	margin:0 auto;
+}
+
+table{
+	display:inline-block;
+	background-color:white;
+	margin:0 auto;
+}
+
+#movediv{
+	position:absolute;
+	width:190px;
+	height:150px;
+	background-color:#D7DBDD;
+	z-index:-1;
+	margin-left:-190px;
+	border-radius:5px;
+	border:1px solid #313620;
+}
+
+.showdetail{
+	cursor:pointer;
+}
+
+#headPortrait img{
+	margin:2px 0 0 2px;
+	width:70px;
+	height:70px;
+	border-radius:34px;
+}
+
+#headPortrait{
+	width:100%;
+	border-radius:5px;
+}
+
+#headPortrait>div{
+	border-bottom:1px solid black;
+	border-radius:5px;
+	background-color:#EBF5FB ;
+}
+
+#movediv p{
+	margin:0;
+	padding:5px 0;
+}
+
+.desc_box{
+	display:inline-block;
+	margin:2px 0;
+	width:105px;
+	height:75px;
+}
+
+.desc_box span{
+	display:block;
+	margin:2px 0;
+}
+
+
+.desc_box a:hover{
+	text-decoration:none;
+}
+
+.navigation_hd .pagination{
+	margin:10px 0 0 0;
+    -webkit-user-select:none;
+}
+
+.page-item{
+
+	float:left;
+}
+
+.show_item{
+	padding-top:2px;
+	color:#ABB2B9;
+	font-style:oblique;
+}
+
+.page-link{
+	width:36px;
+}
+
+.page-item1{
+	text-align:center;
+}
+
+#succeed-delete{
+	position:absolute;
+	top:30px;
+	width:90%;
+	text-align:center;
+	z-index:-1;
+}
+
+.showsuccessMes{
+	z-index:-1;
+}
